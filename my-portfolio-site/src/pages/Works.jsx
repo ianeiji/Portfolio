@@ -9,7 +9,7 @@ const Works = ({ secTitle }) => {
       <WorksContainer>
         <WorksCat>ウェブサイト</WorksCat>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink href="https://yuckian.com/my_works/cafe">
             <Img src={images.websites.cafe} />
           </ImgLink>
           <Details>
@@ -21,7 +21,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink href="https://yuckian.com/my_works/Dental Clinic">
             <Img src={images.websites.dental} />
           </ImgLink>
           <Details>
@@ -34,7 +34,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink href="https://yuckian.com/my_works/建設会社">
             <Img src={images.websites.construct} />
           </ImgLink>
           <Details>
@@ -46,7 +46,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink href="https://yuckian.com/my_works/コーポレートサイト">
             <Img src={images.websites.company} />
           </ImgLink>
           <Details>
@@ -61,7 +61,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink href="https://yuckian.com/my_works/専門学校">
             <Img src={images.websites.school} />
           </ImgLink>
           <Details>
@@ -73,7 +73,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink href="https://yuckian.com/my_works/旅館">
             <Img src={images.websites.ryokan} />
           </ImgLink>
           <Details>
@@ -86,7 +86,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink href="https://yuckian.com/my_works/美容院">
             <Img src={images.websites.hairSalon} />
           </ImgLink>
           <Details>
@@ -103,7 +103,7 @@ const Works = ({ secTitle }) => {
         </Box>
         <WorksCat>バナー</WorksCat>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink>
             <Img src={images.banner.sample} />
           </ImgLink>
           <Details>
@@ -116,7 +116,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink>
             <Img src={images.banner.airline} />
           </ImgLink>
           <Details>
@@ -129,7 +129,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink>
             <Img src={images.banner.bbq} />
           </ImgLink>
           <Details>
@@ -141,7 +141,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink>
             <Img src={images.banner.farm} />
           </ImgLink>
           <Details>
@@ -153,7 +153,7 @@ const Works = ({ secTitle }) => {
           </Details>
         </Box>
         <Box>
-          <ImgLink href="/contact">
+          <ImgLink>
             <Img src={images.banner.realEstate} />
           </ImgLink>
           <Details>

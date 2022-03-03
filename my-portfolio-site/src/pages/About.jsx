@@ -61,7 +61,8 @@ const About = ({ secTitle }) => {
               <Details>
                 <p>
                   BEM記法を意識して書いています。
-                  <br/>ファイルは分割して管理するようにしています。
+                  <br />
+                  ファイルは分割して管理するようにしています。
                 </p>
               </Details>
             </Box>
@@ -119,9 +120,7 @@ const About = ({ secTitle }) => {
                 <SkillIcon src={images.logo.ps} alt="" />
               </Titles>
               <Details>
-                <p>
-                  簡単なバナー作成、画像加工できます。  
-                </p>
+                <p>簡単なバナー作成、画像加工できます。</p>
               </Details>
             </Box>
             <Box>
@@ -144,11 +143,10 @@ const About = ({ secTitle }) => {
   );
 };
 
-
 const PagesWrap = styled.div`
   margin: 0 auto;
   padding: 10% 4% 0 4%;
-  `;
+`;
 
 const TitleWrap = styled.h1`
   text-align: center;
@@ -181,7 +179,7 @@ const TextBox = styled.div`
   width: 100%;
   margin: 0 auto;
   `};
-  `;
+`;
 
 const Name = styled.p`
   text-align: center;
@@ -190,7 +188,7 @@ const Name = styled.p`
     padding-bottom: 0.3rem;
     letter-spacing: 0.5rem;
   }
-  
+
   & span {
     font-size: 1rem;
     letter-spacing: 0.1rem;
@@ -205,25 +203,28 @@ const AboutMe = styled.dl`
   border-top: 1px solid #ddd;
 
   & dt {
-    width: 20%;
-    padding: 0.7rem 0 0.7rem 0.7rem;
+    width: 23%;
+    padding: 0.7rem 0 0.7rem 0;
     font-weight: 600;
     border-bottom: 1px solid #ddd;
+    ${media.lessThan("medium")`
+    font-size:.9rem;
+    `};
   }
 
   & dd {
-    width: 80%;
-    padding: 0.7rem 0 0.7rem 0.7rem;
+    width: 77%;
+    padding: 0.7rem 0 0.7rem 0;
     border-bottom: 1px solid #ddd;
     ${media.lessThan("medium")`
     font-size:.8rem;
-`};
+    `};
   }
 `;
 
 const Skills = styled.div`
   margin: 100px 0 0 0;
-  `;
+`;
 
 const BoxWrap = styled.div`
   margin-top: 80px;
@@ -231,7 +232,7 @@ const BoxWrap = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  `;
+`;
 
 const Box = styled.div`
   width: 28%;
@@ -240,7 +241,7 @@ const Box = styled.div`
     width: 80%;
     margin: 0 auto 80px auto;
   `};
-  `;
+`;
 
 const Titles = styled.div`
   display: flex;
@@ -259,10 +260,10 @@ const SkillIcon = styled.img`
 
 const Details = styled.div`
   margin: 30px 0 0 0;
-  
+
   & p {
     font-size: 15px;
   }
 `;
 
-  export default About;
+export default About;

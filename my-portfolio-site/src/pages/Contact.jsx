@@ -140,7 +140,7 @@ const FormWrap = styled.div`
   max-width: 720px;
   ${media.lessThan("medium")`
       margin-top: 40px;
-      `};
+  `};
 `;
 
 const FormItem = styled.div`
@@ -156,7 +156,7 @@ const FormItem = styled.div`
     padding-top: 16px;
     padding-bottom: 16px;
     flex-wrap: wrap;
-    `};
+  `};
   &:nth-child(5) {
     border-bottom: 1px solid #ddd;
   }
@@ -186,7 +186,7 @@ const LabelMsg = styled.div`
   margin-bottom: auto;
   ${media.lessThan("medium")`
       margin-top: 0;
-      `};
+  `};
 `;
 
 const Required = styled.span`
@@ -230,7 +230,7 @@ const Input = styled.input`
     height: 40px;
     flex: inherit;
     font-size: 15px;
-    `};
+  `};
 `;
 
 const Textarea = styled.textarea`
