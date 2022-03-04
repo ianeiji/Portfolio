@@ -139,8 +139,8 @@ const FormWrap = styled.div`
   margin-bottom: 100px;
   max-width: 720px;
   ${media.lessThan("medium")`
-      margin-top: 40px;
-  `};
+        margin-top: 40px;
+    `};
 `;
 
 const FormItem = styled.div`
@@ -151,12 +151,12 @@ const FormItem = styled.div`
   display: flex;
   align-items: center;
   ${media.lessThan("medium")`
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    flex-wrap: wrap;
-  `};
+      padding-left: 14px;
+      padding-right: 14px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      flex-wrap: wrap;
+    `};
   &:nth-child(5) {
     border-bottom: 1px solid #ddd;
   }
@@ -169,11 +169,11 @@ const Label = styled.div`
   font-weight: bold;
   font-size: 18px;
   ${media.lessThan("medium")`
-    max-width: inherit;
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-  `};
+      max-width: inherit;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+    `};
 `;
 
 const LabelMsg = styled.div`
@@ -186,7 +186,7 @@ const LabelMsg = styled.div`
   margin-bottom: auto;
   ${media.lessThan("medium")`
       margin-top: 0;
-  `};
+    `};
 `;
 
 const Required = styled.span`
@@ -204,12 +204,12 @@ const Required = styled.span`
     background: #6e6e6e;
   }
   ${media.lessThan("medium")`
-  border-radius: 4px;
-  padding-top: 4px;
-    padding-bottom: 4px;
-    width: 32px;
-    font-size: 10px;
-  `};
+      border-radius: 4px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      width: 32px;
+      font-size: 10px;
+    `};
 `;
 
 const Input = styled.input`
@@ -246,8 +246,8 @@ const Textarea = styled.textarea`
   background: #eaedf2;
   font-size: 18px;
   ${media.lessThan("medium")`
-  margin-top: 18px;
-  margin-left: 0;
+    margin-top: 18px;
+    margin-left: 0;
     height: 200px;
     flex: inherit;
     font-size: 15px;
@@ -270,7 +270,7 @@ const Button = styled.input`
   font-size: 20px;
   cursor: pointer;
   ${media.lessThan("medium")`
-  margin-top: 24px;
+    margin-top: 24px;
     padding-top: 8px;
     padding-bottom: 8px;
     width: 160px;

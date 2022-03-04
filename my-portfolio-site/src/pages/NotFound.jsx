@@ -42,7 +42,7 @@ const Title = styled.h1`
   font-size: 3rem;
 
   ${media.lessThan("medium")`
-  font-size: 1.5rem
+    font-size: 1.5rem
   `};
 `;
 

@@ -154,7 +154,7 @@ const Copy = styled.h1`
     font-weight: 300;
     opacity: 0;
     ${media.lessThan("medium")`
-    font-size: 2rem;
+      font-size: 2rem;
     `};
   }
 `;

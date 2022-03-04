@@ -1,3 +1,4 @@
+import myPic from "../images/MyPic.jpg";
 import cafe from "../images/websites/カフェ.png";
 import company from "../images/websites/コーポレートサイト-screenshot.png";
 import construct from "../images/websites/建設会社-screenshot.png";
@@ -49,6 +50,9 @@ const images = {
     react,
     ps,
   },
+  else: {
+    myPic
+  }
 };
 
 export default images;

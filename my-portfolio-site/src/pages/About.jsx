@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import media from "styled-media-query";
-import test from "../images/websites/旅館-screenshot.png";
 import images from "../images/Images";
 
 const About = ({ secTitle }) => {
@@ -29,7 +28,7 @@ const About = ({ secTitle }) => {
               </dd>
             </AboutMe>
           </TextBox>
-          <MyImage src={test} />
+          <MyImage src={images.else.myPic} />
         </Introduce>
 
         <Skills>
@@ -167,18 +166,18 @@ const Introduce = styled.div`
 const MyImage = styled.img`
   width: 40%;
   object-fit: cover;
-  ${media.lessThan("medium")`
-    width: 100%;
-    margin:50px auto 30px auto;
-  `};
+    ${media.lessThan("medium")`
+      width: 100%;
+      margin:50px auto 30px auto;
+    `};
 `;
 
 const TextBox = styled.div`
   width: 55%;
-  ${media.lessThan("medium")`
-  width: 100%;
-  margin: 0 auto;
-  `};
+    ${media.lessThan("medium")`
+    width: 100%;
+    margin: 0 auto;
+    `};
 `;
 
 const Name = styled.p`
@@ -207,18 +206,18 @@ const AboutMe = styled.dl`
     padding: 0.7rem 0 0.7rem 0;
     font-weight: 600;
     border-bottom: 1px solid #ddd;
-    ${media.lessThan("medium")`
-    font-size:.9rem;
-    `};
+      ${media.lessThan("medium")`
+        font-size:.9rem;
+      `};
   }
 
   & dd {
     width: 77%;
     padding: 0.7rem 0 0.7rem 0;
     border-bottom: 1px solid #ddd;
-    ${media.lessThan("medium")`
-    font-size:.8rem;
-    `};
+      ${media.lessThan("medium")`
+        font-size:.8rem;
+      `};
   }
 `;
 
@@ -237,10 +236,10 @@ const BoxWrap = styled.div`
 const Box = styled.div`
   width: 28%;
   margin-bottom: 120px;
-  ${media.lessThan("medium")`
-    width: 80%;
-    margin: 0 auto 80px auto;
-  `};
+    ${media.lessThan("medium")`
+      width: 80%;
+      margin: 0 auto 80px auto;
+    `};
 `;
 
 const Titles = styled.div`

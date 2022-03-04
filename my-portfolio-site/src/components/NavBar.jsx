@@ -16,11 +16,13 @@ const NavBar = () => {
 
   return (
     <>
-      <Burger onClick={() => handleClick()}>
-        <span></span>
-        <span></span>
-        <span></span>
-      </Burger>
+      <BurgerBox onClick={() => handleClick()}>
+        <Burger>
+          <span></span>
+          <span></span>
+          <span></span>
+        </Burger>
+      </BurgerBox>
       <Nav isOpen={isOpen}>
         <Menu isOpen={isOpen}>
           <NavLink
@@ -108,9 +110,9 @@ const Nav = styled.nav`
   z-index: 90;
   background-color: rgba(0, 0, 0, 0.9);
   transition: all 0.3s ease;
-  ${media.lessThan("medium")`
-  transform: translateY(${({ isOpen }) => (isOpen ? "0px" : "-1000px")});
-  `};
+    ${media.lessThan("medium")`
+    transform: translateY(${({ isOpen }) => (isOpen ? "0px" : "-1000px")});
+    `};
 `;
 
 const Menu = styled.div`
@@ -118,26 +120,31 @@ const Menu = styled.div`
   justify-content: space-around;
   align-items: center;
   padding: 0.8rem 5rem;
-  ${media.lessThan("medium")`
-  width: 100%;
-  flex-direction: column;
-  padding-top:5rem;
-  display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
-  `};
+    ${media.lessThan("medium")`
+    width: 100%;
+    flex-direction: column;
+    padding-top:5rem;
+    display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
+    `};
 `;
 
-const Burger = styled.div`
+const BurgerBox = styled.div`
+  padding: 20px;
   position: fixed;
+  cursor: pointer;
   z-index: 100;
   top: 5%;
   right: 30px;
+`;
+
+const Burger = styled.div`
+  position: relative;
   width: 30px;
   height: 20px;
-  cursor: pointer;
   display: none;
-  ${media.lessThan("medium")`
-  display:block;
-  `};
+    ${media.lessThan("medium")`
+    display:block;
+    `};
 
   & span {
     position: absolute;

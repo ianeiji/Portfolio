@@ -217,7 +217,7 @@ const WorksCat = styled.h5`
   margin: 40px 0 0 0;
   position: relative;
   ${media.lessThan("medium")`
-  margin: 80px 0 0 0;
+    margin: 80px 0 0 0;
   `};
 `;
 
@@ -225,7 +225,7 @@ const ImgLink = styled.a`
   display: block;
   width: 45%;
   ${media.lessThan("medium")`
-  width: 100%;
+    width: 100%;
   `};
 `;
 
@@ -236,8 +236,8 @@ const Img = styled.img`
 const Details = styled.div`
   width: 45%;
   ${media.lessThan("medium")`
-  width: 100%;
-  margin-top: 50px;
+    width: 100%;
+    margin-top: 50px;
   `};
 `;
 
