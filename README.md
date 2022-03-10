@@ -14,5 +14,10 @@ https://yuckian.com/
 - Email.js
 - vscode
 
+# 補足
 
+今現在、TypeScriptを使用したオリジナルのTodoリストを作成しています。
 
+知り合いが活動している献血ボランティアのウェブサイトをGatsby.jsで制作する予定です。
+
+いずれも完成次第、Worksに掲載する予定です。
