@@ -7,7 +7,6 @@ https://yuckian.com/
 worksはカテゴリーごとに、時系列で上から古い順に並べています。
 
 
-
 # 開発環境
 
 - React
@@ -15,6 +14,8 @@ worksはカテゴリーごとに、時系列で上から古い順に並べてい
 - gsap
 - Email.js
 - vscode
+- xserver
+- FileZilla
 
 # 補足
 
